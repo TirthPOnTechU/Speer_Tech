@@ -1,0 +1,89 @@
+
+.menu-burger{
+    font-size: 2rem;
+    margin-right: 2rem;
+    cursor: pointer;
+    
+}
+.brand-title{
+    display: flex;
+    align-items: center;
+    z-index: 3;
+    position: sticky;
+
+}
+.brand-name{
+    font-size: 2rem;
+    font-weight: lighter;
+}
+nav{
+    margin: 2rem;
+    position: relative;
+    top: 10rem;
+    left: 10rem;
+}
+nav li{
+    list-style: none;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    position: relative;
+    top:1rem;
+    animation-duration: 0.5s;
+    animation-name: none;
+    animation-fill-mode: forwards;
+
+}
+nav li:nth-child(1){
+    animation-delay: 0.25s;
+}
+
+nav li:nth-child(2){
+    animation-delay: 0.30s;
+}
+
+nav li:nth-child(3){
+    animation-delay: 0.35s;
+}
+
+.menu-container{
+    margin: 3rem;
+    align-items: center;
+    display: inline-block;
+    width: 20vw;
+    height: 20vh;
+    position: fixed;
+    z-index: 100;
+}
+.open-menu{
+    width: 30rem;
+    height: 30rem;
+    display: inline-block;
+}
+.closed-menu{
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.menu-circle{
+    background-color: maroon;
+    display:inline-block;
+    border-radius: 100%;
+    position: relative;
+    top: -10rem;
+    left: -10rem;
+    overflow: hidden;
+}
+@keyframes li-move-up{
+    to {
+        top: -1rem;
+    }
+  }
+  @keyframes li-move-down{
+    to {
+        top: 0rem;
+    }
+  }
