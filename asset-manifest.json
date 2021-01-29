@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Speer_Tech/static/css/main.aab8aeac.chunk.css",
+    "main.js": "/Speer_Tech/static/js/main.78c0421c.chunk.js",
+    "main.js.map": "/Speer_Tech/static/js/main.78c0421c.chunk.js.map",
+    "runtime-main.js": "/Speer_Tech/static/js/runtime-main.916d5857.js",
+    "runtime-main.js.map": "/Speer_Tech/static/js/runtime-main.916d5857.js.map",
+    "static/js/2.d7587e2b.chunk.js": "/Speer_Tech/static/js/2.d7587e2b.chunk.js",
+    "static/js/2.d7587e2b.chunk.js.map": "/Speer_Tech/static/js/2.d7587e2b.chunk.js.map",
+    "index.html": "/Speer_Tech/index.html",
+    "static/css/main.aab8aeac.chunk.css.map": "/Speer_Tech/static/css/main.aab8aeac.chunk.css.map",
+    "static/js/2.d7587e2b.chunk.js.LICENSE.txt": "/Speer_Tech/static/js/2.d7587e2b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.916d5857.js",
+    "static/js/2.d7587e2b.chunk.js",
+    "static/css/main.aab8aeac.chunk.css",
+    "static/js/main.78c0421c.chunk.js"
+  ]
+}
